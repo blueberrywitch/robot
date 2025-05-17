@@ -27,3 +27,4 @@ class ControlSystem:
                 self.engine.stop()
             else:
                 print(f"Неизвестная команда: {cmd}")
+

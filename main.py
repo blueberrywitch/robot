@@ -10,5 +10,6 @@ def main() -> None:
     except KeyboardInterrupt:
         engine.stop()
 
+
 if __name__ == "__main__":
     main()

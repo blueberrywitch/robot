@@ -33,3 +33,4 @@ class RobotFSM:
             self.state = State.ARRIVED
         elif cmd == "idle":
             self.state = State.IDLE
+

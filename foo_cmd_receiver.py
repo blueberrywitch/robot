@@ -6,3 +6,4 @@ class FooCmdReceiver(ACmdReceiver):
             return input("Введите команду (forward <ms>/left/right/stop/exit): ")
         except EOFError:
             return "exit"
+
