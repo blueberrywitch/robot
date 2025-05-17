@@ -1,5 +1,4 @@
 class ControlSystem:
-    """Читает команды из ACmdReceiver и управляет AEngine."""
     def __init__(self, engine: 'AEngine', receiver: 'ACmdReceiver') -> None:
         self.engine   = engine
         self.receiver = receiver
